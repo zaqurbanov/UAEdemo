@@ -1,0 +1,221 @@
+#statistic-section{
+
+    .big-container{
+
+        .stat-card{
+            display: flex;
+        
+            gap: 60px;
+            .stat-card-img{
+                flex: 1 1 auto;
+                
+              min-height: 640px;
+               
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .stat-card-body{
+                flex: 1 1 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 30px;
+
+                .statistics{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    
+                    width: 100%;
+                    gap: 20px;
+                }
+            }
+
+        }
+    }
+
+}
+
+#our-mission-section{
+    background-color: $grey;
+
+    .big-container{
+
+        .our-missions{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20%;
+            gap: 12px;
+            text-align: center;
+        }
+    }
+}
+
+#investment-section{
+
+    .big-container{
+
+        .invesment-wrapper{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .card-wrapper{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+               .investment-card{
+                    flex: 1 1 30%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .investment-card-img{
+                       height: 300px;
+                        width: 100%;
+
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                            object-position: center;
+
+                        }
+                    }
+               }
+            }
+        }
+    }
+
+}
+#last-project-section{
+    background-color: $grey;
+    .big-container{
+
+        .project-wrapper{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            .project-card-wrapper{
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+              .project-card{
+
+                   
+
+                .project-card-img{
+                    height: 640px;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .project-body{
+                  display: grid;
+                  grid-template-columns: 4fr 2fr;
+                  margin-top: 20px;
+                    
+                  h3{
+                    
+                }
+                p{
+                    
+                }
+                    
+                }
+              }
+            }
+        }
+    }
+}
+
+#trusted-section{
+
+.big-container{
+
+    .trusted-wrap{
+        text-align: center;
+        .trusted-row{
+        
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        row-gap: 12px;
+            .trusted-img-container{
+                flex: 1 1 20%;
+               
+            }
+    
+        }
+    }
+
+}
+
+}
+
+#blog-section{
+    background-color: $grey;
+        .big-container{
+
+            .blog-wrap{
+
+                
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+                h2{
+                    text-align: center;
+                }
+
+                .blog-row{
+                    display: flex;
+                    gap: 24px;
+
+                    .blog-card{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        gap: 24px;
+                        flex: 1 1 45%;
+                        .blog-card-img{
+                            width: 100%;
+                         max-height: 600px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            
+                            }
+                        }
+
+                        .blog-card-body{
+                            max-width: 80%;
+
+                        }
+                    }
+                }
+            }
+        }
+
+}

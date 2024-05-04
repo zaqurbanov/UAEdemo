@@ -1,0 +1,61 @@
+.form-row{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .form-card{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex: 1 1 50%;
+
+        p{
+            max-width: 80%;
+        }
+        .contact-info{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            a{
+                    color: black;
+
+                    span{
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+            }
+        }
+
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 1 50%;
+
+      .input-row{
+            display: flex;
+            flex-direction: column;
+           
+            gap: 12px;
+            width: 100%;
+            label{
+                font-size: 16px;
+            }
+            input{
+                padding: 7px;
+            }
+            
+        }
+
+        .accept.row{
+            display: flex;
+
+        }
+
+     
+    }
+}

@@ -1,0 +1,36 @@
+@mixin BorderAndBg($border,$bg){
+    font-size: $smallTextSize;
+    padding: 8px 24px ;
+    background-color: $bg;
+    border: 1px solid $border;
+}
+
+.transparentButton{
+
+    padding: 8px 24px ;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: $smallTextSize;
+}
+
+.whiteButton{
+    font-size: $smallTextSize;
+    padding: 8px 24px;
+    background-color: $white;
+    border: 1px solid black;
+    color: black;
+
+}
+.buttonCenter{
+    width: fit-content;
+        margin:50px auto;
+}
+
+.blackButton{
+    font-size: $smallTextSize;
+    padding: 8px 24px;
+    background-color: $black;
+    border: 1px solid black;
+    color: $white;
+}

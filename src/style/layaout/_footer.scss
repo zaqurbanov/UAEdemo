@@ -1,0 +1,77 @@
+
+footer{
+    background-color: $black;
+    padding: 112px 0;
+
+    .big-container{
+
+
+        .footer-wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .footer-top{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                
+                    color: white;
+
+                
+                    .footer-columns{
+                        display: flex;
+                        justify-content: space-between;
+                        .footer-column{
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 12px;
+                               
+                                li{
+                                    color: $white;
+                                    font-size: $regularTextSize;
+                                    width: max-content;
+                                    
+                                    a{
+                                        color: $white;
+                                        font-size: $regularTextSize;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                .footer-logo{
+                  
+                }
+            }
+            .footer-bottom{
+                padding-top: 24px;
+               display: grid;
+               grid-template-columns: 6fr 6fr;
+                border-top: 1px solid $white;
+
+                .copyRight{
+                     p{
+                        color: $white;
+                     }
+                }
+                .footer-bottom-list{
+                    display: flex;
+                    justify-content: space-between;
+
+                    li{
+
+                        a{
+                            color: white;
+                            text-decoration: underline;
+                            font-size: $regularTextSize;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
