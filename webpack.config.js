@@ -32,7 +32,7 @@ const config = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          publicPath: '/public/images/',
+          publicPath: '/src/images/',
           outputPath: (url, resourcePath, context) => {
             
             const folderName = path.basename(path.dirname(resourcePath));
@@ -45,8 +45,11 @@ const config = {
   },
   devServer: {
     port: 3200,
-    static: {
-      directory: path.join(__dirname, 'public'),
+    // static: {
+    //   directory: path.join(__dirname, /*'public'*/),
+    // }
+    static:{ 
+      directory: path.join(__dirname, /*'public'*/)
     }
   }
 };
