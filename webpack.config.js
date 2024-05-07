@@ -49,7 +49,7 @@ const config = {
     //   directory: path.join(__dirname, /*'public'*/),
     // }
     static:{ 
-      directory: path.join(__dirname, /*'public'*/)
+      directory: path.join(__dirname)
     }
   }
 };
